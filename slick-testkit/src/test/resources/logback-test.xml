@@ -8,7 +8,7 @@
         <appender-ref ref="STDOUT" />
     </root>
     <logger name="scala.slick.compiler"                           level="${log.qcomp:-info}" />
-    <logger name="scala.slick.compiler.QueryCompiler"             level="${log.qcomp.phases:-inherited}" />
+    <logger name="scala.slick.compiler.QueryCompiler"             level="${log.qcomp.phases:-verbose}" />
     <logger name="scala.slick.compiler.LocalizeRefs"              level="${log.qcomp.localizeRefs:-inherited}" />
     <logger name="scala.slick.compiler.ReconstructProducts"       level="${log.qcomp.reconstructProducts:-inherited}" />
     <logger name="scala.slick.compiler.Inline"                    level="${log.qcomp.inline:-inherited}" />
@@ -24,7 +24,7 @@
     <logger name="scala.slick.compiler.PruneFields"               level="${log.qcomp.pruneFields:-inherited}" />
     <logger name="scala.slick.compiler.ResolveZipJoins"           level="${log.qcomp.resolveZipJoins:-inherited}" />
     <logger name="scala.slick.compiler.ConvertToComprehensions"   level="${log.qcomp.convertToComprehensions:-inherited}" />
-    <logger name="scala.slick.compiler.FuseComprehensions"        level="${log.qcomp.fuseComprehensions:-inherited}" />
+    <logger name="scala.slick.compiler.FuseComprehensions"        level="${log.qcomp.fuseComprehensions:-verbose}" />
     <logger name="scala.slick.compiler.FixRowNumberOrdering"      level="${log.qcomp.fixRowNumberOrdering:-inherited}" />
     <logger name="scala.slick.session"                            level="${log.session:-info}" />
 </configuration>

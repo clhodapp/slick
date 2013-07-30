@@ -15,33 +15,34 @@ import scala.reflect.ClassTag
 /** Lists all tests of the Slick driver test kit */
 object Testkit {
   val tests: List[Class[_ <: TestkitTest[_ >: Null <: TestDB]]] =
-    classOf[tk.AggregateTest] ::
-    classOf[tk.ColumnDefaultTest] ::
-    classOf[tk.CountTest] ::
-    classOf[tk.RelationalTypeTest] ::
-    classOf[tk.JdbcTypeTest] ::
-    classOf[tk.ExecutorTest] ::
-    classOf[tk.ForeignKeyTest] ::
-    classOf[tk.InsertTest] ::
-    classOf[tk.InvokerTest] ::
-    classOf[tk.IterateeTest] ::
-    classOf[tk.JoinTest] ::
-    classOf[tk.MainTest] ::
-    classOf[tk.MapperTest] ::
-    classOf[tk.RelationalMiscTest] ::
-    classOf[tk.JdbcMiscTest] ::
-    classOf[tk.MutateTest] ::
-    classOf[tk.NestingTest] ::
-    classOf[tk.NewQuerySemanticsTest] ::
-    classOf[tk.PagingTest] ::
-    classOf[tk.PlainSQLTest] ::
-    classOf[tk.PrimaryKeyTest] ::
-    classOf[tk.RelationalScalarFunctionTest] ::
-    classOf[tk.JdbcScalarFunctionTest] ::
-    classOf[tk.SequenceTest] ::
-    classOf[tk.TemplateTest] ::
-    classOf[tk.TransactionTest] ::
-    classOf[tk.UnionTest] ::
+    // classOf[tk.AggregateTest] ::
+    // classOf[tk.ColumnDefaultTest] ::
+    // classOf[tk.CountTest] ::
+    // classOf[tk.RelationalTypeTest] ::
+    // classOf[tk.JdbcTypeTest] ::
+    // classOf[tk.ExecutorTest] ::
+    // classOf[tk.ForeignKeyTest] ::
+    // classOf[tk.InsertTest] ::
+    // classOf[tk.InvokerTest] ::
+    // classOf[tk.IterateeTest] ::
+    // classOf[tk.JoinTest] ::
+    // classOf[tk.MainTest] ::
+    // classOf[tk.MapperTest] ::
+    // classOf[tk.RelationalMiscTest] ::
+    // classOf[tk.JdbcMiscTest] ::
+    // classOf[tk.MutateTest] ::
+    // classOf[tk.NestingTest] ::
+    // classOf[tk.NewQuerySemanticsTest] ::
+    // classOf[tk.PagingTest] ::
+    // classOf[tk.PlainSQLTest] ::
+    // classOf[tk.PrimaryKeyTest] ::
+    // classOf[tk.RelationalScalarFunctionTest] ::
+    // classOf[tk.JdbcScalarFunctionTest] ::
+    // classOf[tk.SequenceTest] ::
+    // classOf[tk.TemplateTest] ::
+    // classOf[tk.TransactionTest] ::
+    // classOf[tk.UnionTest] ::
+		classOf[tk.ReducedTest] ::
     (Nil: List[Class[_ <: TestkitTest[_ >: Null <: TestDB]]])
 }
 
